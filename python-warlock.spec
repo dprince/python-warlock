@@ -15,7 +15,7 @@ BuildRequires:  python-devel
 Build self-validating python objects using JSON schemas
 
 %prep
-%setup -q
+%setup -q -n warlock-%{version}
 
 %build
 %{__python} setup.py build
