@@ -24,10 +24,13 @@ Build self-validating python objects using JSON schemas
 %{__python} setup.py install --skip-build --root %{buildroot}
 
 %files
-%doc README.md LICENSE
+%doc README.md
 %{python_sitelib}/warlock
 %{python_sitelib}/warlock-%{version}-py?.?.egg-info
 
 %changelog
+* Fri Feb 15 2013 Dan Prince - 0.8.0-1
+- Drop README from the docs.
+
 * Fri Aug 10 2012 Dan Prince - 0.4.0-1
 - Initial package.
