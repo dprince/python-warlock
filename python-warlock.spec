@@ -9,6 +9,8 @@ Source0:        http://pypi.python.org/packages/source/w/warlock/warlock-%{versi
 BuildArch:      noarch
 
 BuildRequires:  python-devel
+Requires:  python-jsonschema >= 0.7
+Requires:  python-jsonpatch >= 0.10
 
 
 %description
